@@ -1,0 +1,375 @@
+Login:
+  Title: Bienvenido de vuelta!
+  Description: Ingresa tus datos de inicio de sesión.
+  TitleLinking: Enlace para ligado de usuario
+  DescriptionLinking: Ingresa tus datos de inicio de sesión para ligar tu usuario externo con un usuario ZITADEL.
+  LoginNameLabel: Nombre de usuario
+  UsernamePlaceHolder: nombre de usuario
+  LoginnamePlaceHolder: usuario@dominio
+  ExternalUserDescription: Accesa con un usuario externo.
+  MustBeMemberOfOrg: El usuario debe ser miembro de la organización {{.OrgName}}.
+  RegisterButtonText: registrar
+  NextButtonText: siguiente
+
+SelectAccount:
+  Title: Seleccionar cuenta
+  Description: Utiliza tu cuenta ZITADEL
+  TitleLinking: Selecciona una cuenta para ligado de usuario
+  DescriptionLinking: Selecciona tu cuenta para ligar con tu usuario externo.
+  OtherUser: Otro usuario
+  SessionState0: activa
+  SessionState1: inactiva
+  MustBeMemberOfOrg: El usuario debe ser miembro de la organización {{.OrgName}}.
+
+Password:
+  Title: Contraseña
+  Description: Ingresa tus datos de inicio de sesión.
+  PasswordLabel: Contraseña
+  MinLength: Longitud mínima
+  HasUppercase: Letra mayúscula
+  HasLowercase: Letra minúscula
+  HasNumber: Número
+  HasSymbol: Símbolo
+  Confirmation: Confirmación de coincidencia
+  ResetLinkText: reiniciar contraseña
+  BackButtonText: atrás
+  NextButtonText: siguiente
+
+UsernameChange:
+  Title: Cambiar usuario
+  Description: Introduce tu nuevo nombre de usuario
+  UsernameLabel: Nombre de Usuario
+  CancelButtonText: cancelar
+  NextButtonText: siguiente
+
+UsernameChangeDone:
+  Title: Nombre de usuario cambiado
+  Description: Tu nombre de usuario ha sido cambiado correctamente.
+  NextButtonText: siguiente
+
+InitPassword:
+  Title: Establecer Contraseña
+  Description: Has recibido un código el cual tienes que introducir en el siguiente campo para establecer tu contraseña.
+  CodeLabel: Código
+  NewPasswordLabel: Nueva Contraseña
+  NewPasswordConfirmLabel: Confirmar contraseña
+  ResendButtonText: reenviar
+  NextButtonText: siguiente
+
+InitPasswordDone:
+  Title: Contraseña establecida
+  Description: Contraseña establecida exitosamente
+  NextButtonText: siguiente
+  CancelButtonText: cancelar
+
+InitUser:
+  Title: Activar Usuario
+  Description: Has recibido un código el cual tienes que introducir en el siguiente campo para verificar tu correo y establecer tu nueva contraseña.
+  CodeLabel: Código
+  NewPasswordLabel: Nueva Contraseña
+  NewPasswordConfirmLabel: Confirmar contraseña
+  NextButtonText: siguiente
+  ResendButtonText: reenviar
+
+InitUserDone:
+  Title: Usuario Activado
+  Description: Correo verificado y contraseña establecida correctamente
+  NextButtonText: siguiente
+  CancelButtonText: cancelar
+
+InitMFAPrompt:
+  Title: Configurar la Verificación de 2 pasos
+  Description: Deseas configurar la Verificación de 2 pasos?
+  Provider0: OTP (Contraseña de 1 solo uso)
+  Provider1: U2F (Verificación de 2 pasos universal)
+  NextButtonText: siguiente
+  SkipButtonText: saltar
+
+InitMFAOTP:
+  Title: Configuración de verificación de 2 pasos
+  Description: Verifica tu autenticador
+  OTPDescription: Escanea el código con tu aplicación de autenticación(p. ej. Autenticador de Google) o copia la clave secreta e introduce el código generado a continuación.
+  SecretLabel: Clave secreta
+  CodeLabel: Código
+  NextButtonText: siguiente
+  CancelButtonText: cancelar
+
+InitMFAU2F:
+  Title: Configuración de verificación de 2 pasos Universal U2F / WebAuthN
+  Description: Agrega tu Token ingresando un nombre y después haz click en 'Registrar Token'.
+  TokenNameLabel: Nombre del Token / Dispositivo
+  NotSupported: WebAuthN no es soportado por tu navegador. Verifica que estés utilizando la última versión o cambia de navegador por uno soportado (p. ej. Chrome, Safari, Firefox)
+  RegisterTokenButtonText: Registrar Token
+  ErrorRetry: Reintenta, crea una nueva consulta o escoge otro método.
+
+InitMFADone:
+  Title: Verificación de 2 pasos completada
+  Description: Verificación de 2 pasos completada con éxito. La verificación de 2 pasos tiene que ser ingresada en cada inicio de sesión.
+  NextButtonText: siguiente
+  CancelButtonText: cancelar
+
+MFAProvider:
+  Provider0: OTP (Contraseña de 1 solo uso)
+  Provider1: U2F (Verificación de 2 pasos universal)
+  ChooseOther: o escoge otra opción
+
+VerifyMFAOTP:
+  Title: Verificar autenticador
+  Description: Verifica tu autenticador
+  CodeLabel: Código
+  NextButtonText: siguiente
+
+VerifyMFAU2F:
+  Title: Verificar autenticador
+  Description: Verifica tu token de autenticador universal U2F / WebAuthN
+  NotSupported: WebAuthN no es soportado por tu navegador. Verifica que estés utilizando la última versión o cambia de navegador por uno soportado (p. ej. Chrome, Safari, Firefox)
+  ErrorRetry: Reintenta, haz una nueva consulta o escoge otro método.
+  ValidateTokenButtonText: Validar Token
+
+Passwordless:
+  Title: Inicio de sesión sin contraseña
+  Description: Verifica tu token
+  NotSupported: WebAuthN no es soportado por tu navegador. Verifica que estés utilizando la última versión o cambia de navegador por uno soportado (p. ej. Chrome, Safari, Firefox)
+  ErrorRetry: Reintenta, haz una nueva consulta o escoge otro método.
+  LoginWithPwButtonText: Ingresar con password
+  ValidateTokenButtonText: Validar token
+
+PasswordlessPrompt:
+  Title: Configuración sin contraseña
+  Description: Te gustaría configurar el inicio de sesión sin contraseña?
+  DescriptionInit: Tienes que configurar el inicio de sesión sin contraseña?. Utiliza el enlace recibido para registrar tu dispositivo.
+  PasswordlessButtonText: Ir sin contraseña
+  NextButtonText: siguiente
+  SkipButtonText: saltar
+
+PasswordlessRegistration:
+  Title: Configuración sin contraseña
+  Description: Agrega tu Token ingresando un nombre y después haz click en 'Registrar Token'.
+  TokenNameLabel: Nombre del Token / Dispositivo
+  NotSupported: WebAuthN no es soportado por tu navegador. Verifica que estés utilizando la última versión o cambia de navegador por uno soportado (p. ej. Chrome, Safari, Firefox)
+  RegisterTokenButtonText: Registrar Token
+  ErrorRetry: Reintenta, haz una nueva consulta o escoge otro método.
+
+PasswordlessRegistrationDone:
+  Title: Inicio de sesión sin contraseña configurado
+  Description: Token para inicio de sesión sin contraseña agregado correctamente.
+  DescriptionClose: Puedes cerrar esta ventana.
+  NextButtonText: siguiente
+  CancelButtonText: cancelar
+
+PasswordChange:
+  Title: Reestablecer contraseña
+  Description: Reestablece tu contraseña. Ingresa tu vieja y nueva contraseña.
+  OldPasswordLabel: Vieja contraseña
+  NewPasswordLabel: Nueva contraseña
+  NewPasswordConfirmLabel: Confirma tu nueva contraseña
+  CancelButtonText: cancelar
+  NextButtonText: siguiente
+
+PasswordChangeDone:
+  Title: Reestablecimiento de contraseña
+  Description: Tu contraseña ha sido reestablecida correctamente.
+  NextButtonText: siguiente
+
+PasswordResetDone:
+  Title: Reestablece tu contraseña
+  Description: Revisa tu correo para reestablecer tu contraseña
+  NextButtonText: siguiente
+
+EmailVerification:
+  Title: Verificación de correo
+  Description: Hemos enviado un correo para verificar tu dirección de correo electrónico. Porfavor introduce el código recibido en el siguiente campo.
+  CodeLabel: Código
+  NextButtonText: siguiente
+  ResendButtonText: reenviar
+
+EmailVerificationDone:
+  Title: Verificación de correo
+  Description: Tu dirección de correo electrónico ha sido verificada correctamente.
+  NextButtonText: siguiente
+  CancelButtonText: cancelar
+  LoginButtonText: login
+
+RegisterOption:
+  Title: Opciones de registro
+  Description: Escoge como te gustaría registrarte
+  RegisterUsernamePasswordButtonText: Con nombre de usuario y contraseña
+  ExternalLoginDescription: o registrar con un usuario externo
+
+RegistrationUser:
+  Title: Registro
+  Description: Ingresa tus datos. Tu correo electrónico será utilizado como nombre de usuario.
+  DescriptionOrgRegister: Ingresa tus datos.
+  EmailLabel: Correo Electrónico
+  UsernameLabel: Nombre de Usuario
+  FirstnameLabel: Primer nombre
+  LastnameLabel: Apellido
+  LanguageLabel: Idioma
+  German: Alemán
+  English: Inglés
+  Italian: Italiano
+  French: Francés
+  Chinese: Chino
+  GenderLabel: Género
+  Female: Mujer
+  Male: Hombre
+  Diverse: diverso / X
+  PasswordLabel: Contraseña
+  PasswordConfirmLabel: Confirma tu contraseña
+  TosAndPrivacyLabel: Terminos y condiciones
+  TosConfirm: Acepto los
+  TosLinkText: TyC
+  TosConfirmAnd: y la
+  PrivacyLinkText: política de privacidad
+  ExternalLogin: o registrar con un usuario externo
+  BackButtonText: atrás
+  NextButtonText: siguiente
+
+ExternalRegistrationUserOverview:
+  Title: External User Registration
+  Description: We have taken your user details from the selected provider. You can now change or complete them.
+  EmailLabel: E-Mail
+  UsernameLabel: Username
+  FirstnameLabel: Firstname
+  LastnameLabel: Lastname
+  NicknameLabel: Nickname
+  PhoneLabel: Phonenumber
+  LanguageLabel: Language
+  German: Deutsch
+  English: English
+  Italian: Italiano
+  French: Français
+  TosAndPrivacyLabel: Terms and conditions
+  TosConfirm: I accept the
+  TosLinkText: TOS
+  TosConfirmAnd: and the
+  PrivacyLinkText: privacy policy
+  ExternalLogin: or register with an external user
+  BackButtonText: back
+  NextButtonText: save
+
+RegistrationOrg:
+  Title: Organisation Registration
+  Description: Enter your organisationname and userdata.
+  OrgNameLabel: Organisationname
+  EmailLabel: E-Mail
+  UsernameLabel: Username
+  FirstnameLabel: Firstname
+  LastnameLabel: Lastname
+  PasswordLabel: Password
+  PasswordConfirmLabel: Password confirmation
+  TosAndPrivacyLabel: Terms and conditions
+  TosConfirm: I accept the
+  TosLinkText: TOS
+  TosConfirmAnd: and the
+  PrivacyLinkText: privacy policy
+  SaveButtonText: Create organization
+
+LoginSuccess:
+  Title: Login successful
+  AutoRedirectDescription: You will be directed back to your application automatically. If not, click on the button below. You can close the window afterwards.
+  RedirectedDescription: You can now close this window.
+  NextButtonText: next
+
+LogoutDone:
+  Title: Logged out
+  Description: You have logged out successfully.
+  LoginButtonText: login
+
+LinkingUsersDone:
+  Title: Userlinking
+  Description: Userlinking done.
+  CancelButtonText: cancel
+  NextButtonText: next
+
+ExternalNotFoundOption:
+  Title: External User
+  Description: External user not found. Do you want to link your user or auto register a new one.
+  LinkButtonText: Link
+  AutoRegisterButtonText: register
+  TosAndPrivacyLabel: Terms and conditions
+  TosConfirm: I accept the
+  TosLinkText: TOS
+  TosConfirmAnd: and the
+  PrivacyLinkText: privacy policy
+  German: Deutsch
+  English: English
+  Italian: Italiano
+  French: Français
+
+Footer:
+  PoweredBy: Powered By
+  Tos: TOS
+  PrivacyPolicy: Privacy policy
+  Help: Help
+
+Errors:
+  Internal: An internal error occurred
+  AuthRequest:
+    NotFound: Could not find authrequest
+    UserAgentNotCorresponding: User Agent does not correspond
+    UserAgentNotFound: User Agent ID not found
+    TokenNotFound: Token not found
+    RequestTypeNotSupported: Request type is not supported
+    MissingParameters: Required parameters missing
+  User:
+    NotFound: User could not be found
+    Inactive: User is inactive
+    NotFoundOnOrg: User could not be found on chosen organisation
+    NotAllowedOrg: User is no member of the required organisation
+    NotMatchingUserID: User and user in authrequest don't match
+    UserIDMissing: UserID is empty
+    Invalid: Invalid userdata
+    DomainNotAllowedAsUsername: Domain is already reserved and cannot be used
+    NotAllowedToLink: User is not allowed to link with external login provider
+    Password:
+      ConfirmationWrong: Passwordconfirmation is wrong
+      Empty: Password is empty
+      Invalid: Password is invalid
+      InvalidAndLocked: Password is invalid and user is locked, contact your administrator.
+    UsernameOrPassword:
+      Invalid: Username or Password is invalid
+    PasswordComplexityPolicy:
+      NotFound: Password policy not found
+      MinLength: Password is to short
+      HasLower: Password must contain lower letter
+      HasUpper: Password must contain upper letter
+      HasNumber: Password must contain number
+      HasSymbol: Password must contain symbol
+    Code:
+      Expired: Code is expired
+      Invalid: Code is invalid
+      Empty: Code is empty
+      CryptoCodeNil: Crypto code is nil
+      NotFound: Could not find code
+      GeneratorAlgNotSupported: Unsupported generator algorithm
+    EmailVerify:
+      UserIDEmpty: UserID is empty
+    ExternalData:
+      CouldNotRead: External data could not be read correctly
+    MFA:
+      NoProviders: No available multifactor providers
+      OTP:
+        AlreadyReady: Multifactor OTP (OneTimePassword) is already setup
+        NotExisting: Multifactor OTP (OneTimePassword) doesn't exist
+        InvalidCode: Invalid code
+        NotReady: Multifactor OTP (OneTimePassword) isn't ready
+    Locked: User is locked
+    SomethingWentWrong: Something went wrong
+    NotActive: User is not active
+    ExternalIDP:
+      IDPTypeNotImplemented: IDP Type is not implemented
+      NotAllowed: External Login Provider not allowed
+      IDPConfigIDEmpty: Identity Provider ID is empty
+      ExternalUserIDEmpty: External User ID is empty
+      UserDisplayNameEmpty: User Display Name is empty
+      NoExternalUserData: No external User Data received
+    GrantRequired: Login not possible. The user is required to have at least one grant on the application. Please contact your administrator.
+    ProjectRequired: Login not possible. The organisation of the user must be granted to the project. Please contact your administrator.
+  IdentityProvider:
+    InvalidConfig: Identity Provider configuration is invalid
+  IAM:
+    LockoutPolicy:
+      NotExisting: Lockout Policy not existing
+
+optional: (optional)
